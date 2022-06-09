@@ -42,7 +42,7 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join YN Main Channel", url="https://t.me/YNmovieone"),
+                           InlineKeyboardButton("Join Channel", url="https://t.me/YNmovieone"),
                            InlineKeyboardButton("Request Group", url="https://t.me/+XTScHquCH0A0ZTQ1")
                       ],
                      [
@@ -59,7 +59,7 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join YN Main Channel", url="https://t.me/YNmovieone"),
+                    InlineKeyboardButton("Join Channel", url="https://t.me/YNmovieone"),
                     InlineKeyboardButton("Request Group", url="https://t.me/+XTScHquCH0A0ZTQ1")
                 ],
                 [
@@ -82,7 +82,7 @@ async def _source_code(client, message):
                     InlineKeyboardButton("Souce Code", url="https://t.me/YNmovieone")
                 ],
                 [
-                    InlineKeyboardButton("Join YN Main Channel", url="https://t.me/YNmovieone"),
+                    InlineKeyboardButton("Join Channel", url="https://t.me/YNmovieone"),
                     InlineKeyboardButton("Request Group", url="https://t.me/+XTScHquCH0A0ZTQ1")
                 ],
                 [
