@@ -54,7 +54,7 @@ async def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = await message.reply_text(
-              " {} ရေ , မင်မင်တို့ရဲ့ ချန်နယ်ကို အခုထိ subscribed မလုပ်ရသေးပါဘူး။ဒီအောက်က       YN Main Channel (@YNmovieone)  ကိုနှိပ်ပြီး join ပေးပါဦးနော်။ Join ပြီးရင် Unmute Me  ကို နှိပ်လိုက်ပါဗျ။ စာပြန်ရိုက်လို့ရပါလိမ့်မယ်။                                                                                                                                                                                                                                                                                                                                                                                                                             ⚠️Unmute ကိုပြန်နှိပ်ဖို့မမေ့ပါနဲ့နော်⚠️                                                                                                                                                                                                                                                                                                                                                                                                    📲စာရိုက်မရလို့မင်မင်ဆီပြောချင်ရင် (@YoeNaung )👈👈".format(message.from_user.mention, channel, channel),
+              " {} ရေ , မင်မင်တို့ရဲ့ ချန်နယ်ကို အခုထိ Subscribed မလုပ်ရသေးပါဘူး။ဒီအောက်က       YN Main Channel (@YNmovieone)  ကိုနှိပ်ပြီး join ပေးပါဦးနော်။ Join ပြီးရင် Unmute Me  ကို နှိပ်လိုက်ပါဗျ။ ပုံမှန်တိုင်း စာပြန်ရိုက်လို့ရပါလိမ့်မယ်။                                                                                                                                                                                                                                                                                                                                                                                                                             ❣️ကျေးဇူးတင်ပါတယ်❣️".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
@@ -62,7 +62,10 @@ async def _check_member(client, message):
                     InlineKeyboardButton("⚜️ Join YN Main Channel ⚜️", url=channel_url)
                 ],
                 [
-                    InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
+                    InlineKeyboardButton("💥 UnMute Me 💥", callback_data="onUnMuteRequest")
+                ],
+                [
+                    InlineKeyboardButton("❣️ စာရိုက်မရရင် ဒီမှာပြောပါ ❣️", url="https://t.me/YoeNaung")
                 ]
             ]
         )
